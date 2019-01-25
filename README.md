@@ -91,6 +91,10 @@ Of course, OCaml's website is the primary source of information.
 ## 6. Object Oriented programming in OCaml
 Why?
 
+- One example of use :
+
+- Followed by "How to make it functional"? > OO needless, right?
+
 
 
 
