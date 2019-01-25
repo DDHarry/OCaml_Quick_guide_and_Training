@@ -20,11 +20,7 @@ UTop, the Universal TopLevel is an improved interface compare to the OCaml topLe
 opam install utop
 ```
 
-
-## 2. OCaml overview
-
-
-### 2.a. Beyond the standard library
+### 1.d. Beyond the standard library
 OCaml comes with its own libraries, the minimal system needed to run OCaml programs.
 
 - Base extends the OCaml standard library;
@@ -37,12 +33,24 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 **Nota Bene:** we drop the REPL stage, since we learn programming languages to be able to run scripts and programs in standalone units, not in an interactive shell.
 
 
-### 2.b. OCaml type inference
+### 1.e. OCaml type inference
 Type inference is the ability of OCaml to determine the type of an expression. The type of an expression is inferred from the available type information about the components of that expression.
 
 
 
-### 2.c. --
+
+
+
+## 2. Building, Compiling, Running
+
+### 2.a. Building
+
+
+### 2.b. Compiling
+
+### 2.c. Running
+
+### 2.d. Running with command line arguments
 
 
 
@@ -50,6 +58,20 @@ Type inference is the ability of OCaml to determine the type of an expression. T
 
 ## 3. OCaml cheat sheet
 
+### OCaml conventions
+
+• Varialbles
+
+• functions
+
+
+### let binding, recursive binding
+
+### Funs (anonymous functions), functions
+
+### Tuples, Lists
+
+### Simple imperative features
 
 
 
@@ -58,6 +80,16 @@ Type inference is the ability of OCaml to determine the type of an expression. T
 ## 4. Getting some help
 
 Of course, OCaml's website is the primary source of information.
+
+
+
+## 5. More about imperative OCaml
+=> More than necessary
+
+
+
+## 6. Object Oriented programming in OCaml
+Why?
 
 
 
