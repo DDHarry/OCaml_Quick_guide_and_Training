@@ -36,3 +36,12 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 
 ### OCaml type inference
 Type inference is the ability of OCaml to determine the type of an expression. The type of an expression is inferred from the available type information about the components of that expression.
+
+## Getting some help
+
+Of course, OCaml's website is the primary source of information.
+
+
+## R. Some references: books
+
+• Real Worrld OCaml
