@@ -1,18 +1,18 @@
 # OCaml_Quick_guide_and_Training
 Fast getting started and cheat sheet for OCaml. Some exercices and problems with their solutions
 
-## Set-up
+## 1. Set-up
 
-### Installing OCaml
+### 1.a. Installing OCaml
 ```shell
 brew install ocaml
 ```
-### Installing the package manager
+### 1.b. Installing the package manager
 ```shell
 brew install opam
 ```
 
-### OCaml TopLevel vs UTop
+### 1.c. OCaml TopLevel vs UTop
 When you run ```ocaml```, you enter the OCaml REPL, Read-Eval-Print-Loop. It is the TopLevel system.
 
 UTop, the Universal TopLevel is an improved interface compare to the OCaml topLevel. You can install it using __opam__,
@@ -21,7 +21,10 @@ opam install utop
 ```
 
 
-### Beyond the standard library
+## 2. OCaml overview
+
+
+### 2.a. Beyond the standard library
 OCaml comes with its own libraries, the minimal system needed to run OCaml programs.
 
 - Base extends the OCaml standard library;
@@ -34,12 +37,30 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 **Nota Bene:** we drop the REPL stage, since we learn programming languages to be able to run scripts and programs in standalone units, not in an interactive shell.
 
 
-### OCaml type inference
+### 2.b. OCaml type inference
 Type inference is the ability of OCaml to determine the type of an expression. The type of an expression is inferred from the available type information about the components of that expression.
 
-## Getting some help
+
+
+### 2.c. --
+
+
+
+
+
+## 3. OCaml cheat sheet
+
+
+
+
+
+
+## 4. Getting some help
 
 Of course, OCaml's website is the primary source of information.
+
+
+
 
 
 ## R. Some references: books
