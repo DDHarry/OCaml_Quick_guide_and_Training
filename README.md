@@ -18,6 +18,7 @@ $ ocaml
 ```
 
 **Notes**
+
 **1) OCaml TopLevel vs UTop**
 • When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalistic REPL.
 
