@@ -11,9 +11,13 @@ then, the package manager :
 ```shell
 brew install opam
 ```
+Running the OCaml REPL, Read-Eval-Print-Loop :
+```ocaml
+$ ocaml
+```
 
-### 1.c. OCaml TopLevel vs UTop
-When you run ```ocaml```, you enter the OCaml REPL, Read-Eval-Print-Loop. It is the TopLevel system.
+**Note OCaml TopLevel vs UTop**
+When running ```ocaml```, you enter the OCaml REPL, its TopLevel system.
 
 UTop, the Universal TopLevel is an improved interface compare to the OCaml topLevel. You can install it using __opam__,
 ```shell
