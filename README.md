@@ -38,8 +38,7 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 
 - Core extends Core-kernel, notably with its Unix API.
 
-XXXXXX
-**Nota Bene:** we drop the REPL stage, since we learn programming languages to be able to run scripts and programs in standalone units, not in an interactive shell.
+**Nota Bene:** Whenever it is possible, we drop the REPL stage, since we learn programming languages to be able to run scripts and programs in standalone units, not in an interactive shell.
 
 
 
