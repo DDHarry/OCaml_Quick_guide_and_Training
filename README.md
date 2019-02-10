@@ -3,16 +3,12 @@ Fast getting started and cheat sheet for OCaml. Some exercices and problems with
 
 ## 1. Set-up
 
-Installing OCaml :
+Installing OCaml, then, the package manager and finally running the OCaml REPL, Read-Eval-Print-Loop :
 ```shell
 brew install ocaml
-```
-then, the package manager :
-```shell
+
 brew install opam
-```
-Running the OCaml REPL, Read-Eval-Print-Loop :
-```ocaml
+
 $ ocaml
 #           (* This is a comment ignored by the OCaml REPL *)
 ```
