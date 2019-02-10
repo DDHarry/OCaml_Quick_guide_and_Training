@@ -3,11 +3,11 @@ Fast getting started and cheat sheet for OCaml. Some exercices and problems with
 
 ## 1. Set-up
 
-### 1.a. Installing OCaml
+Installing OCaml :
 ```shell
 brew install ocaml
 ```
-### 1.b. Installing the package manager
+Installing the package manager :
 ```shell
 brew install opam
 ```
