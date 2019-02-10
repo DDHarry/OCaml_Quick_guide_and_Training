@@ -5,9 +5,9 @@ Fast getting started and cheat sheet for OCaml. Some exercices and problems with
 
 Installing OCaml, then, the package manager and finally running the OCaml REPL, Read-Eval-Print-Loop :
 ```shell
-brew install ocaml
+$ brew install ocaml
 
-brew install opam
+$ brew install opam
 
 $ ocaml
 #           (* This is a comment ignored by the OCaml REPL *)
