@@ -17,16 +17,16 @@ $ ocaml
 #           (* This is a comment ignored by the OCaml REPL *)
 ```
 
-**Note OCaml TopLevel vs UTop**
-When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalistic REPL.
+**Notes**
+**1) OCaml TopLevel vs UTop**
+• When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalistic REPL.
 
-UTop, the Universal TopLevel, is an improved interface compare to the OCaml topLevel. You can install it using __opam__,
+• UTop, the Universal TopLevel, is an improved interface compare to the OCaml topLevel. You can install it using __opam__,
 ```shell
 opam install utop
 ```
-
-### 1.d. Beyond the standard library
-OCaml comes with its own libraries, the minimal system needed to run OCaml programs.
+**2) Beyond the standard library**
+OCaml comes with its own libraries, the minimal system needed to run OCaml programs.Then,
 
 - Base extends the OCaml standard library;
 
