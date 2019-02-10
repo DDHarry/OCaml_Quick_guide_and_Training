@@ -16,9 +16,13 @@ $ brew install ocaml
 $ brew install opam
 
 $ ocaml
-#           (* This is a comment ignored by the OCaml REPL *)
+# Printf.printf "Hello, World!"            (* This is a comment ignored by the OCaml REPL *)
+# #quit;;
 ```
-
+And, now, using UTop:
+```OCAML
+$ utop
+```
 **Notes**
 
 **1) OCaml TopLevel vs UTop**
