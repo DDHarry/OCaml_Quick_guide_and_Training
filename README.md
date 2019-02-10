@@ -7,7 +7,7 @@ Installing OCaml :
 ```shell
 brew install ocaml
 ```
-Installing the package manager :
+then, the package manager :
 ```shell
 brew install opam
 ```
