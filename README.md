@@ -1,7 +1,7 @@
 # OCaml_Quick_guide_and_Training
 Fast getting started and cheat sheet for OCaml. Some exercices and problems with their solutions
 
-## 1. Set-up
+## 1. The OCaml REPL
 
 Installing OCaml, then, the package manager and finally running the OCaml REPL, Read-Eval-Print-Loop :
 ```shell
@@ -9,18 +9,8 @@ $ brew install ocaml
 $ brew install opam
 $ ocaml
 #       (* This is the OCaml REPL prompt *)
-```
-
-
-```
-# Printf.printf "Hello, World!"            (* This is a comment ignored by the OCaml REPL *)
 # #quit;;
 ```
-And, now, using UTop:
-```OCAML
-$ utop
-```
-**Notes**
 
 **1) OCaml TopLevel vs UTop**
 
@@ -38,6 +28,18 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 - Core-kernel extends Base;
 
 - Core extends Core-kernel, notably with its Unix API.
+
+```
+# Printf.printf "Hello, World!"            (* This is a comment ignored by the OCaml REPL *)
+# #quit;;
+```
+And, now, using UTop:
+```OCAML
+$ utop
+```
+**Notes**
+
+
 
 **Nota Bene:** Whenever it is possible, we drop the REPL stage, since we learn programming languages to be able to run scripts and programs in standalone units, not in an interactive shell.
 
