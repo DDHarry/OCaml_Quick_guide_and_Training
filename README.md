@@ -12,14 +12,12 @@ $ ocaml
 # #quit;;
 ```
 
-**1) OCaml TopLevel vs UTop**
+### 1.1. OCaml TopLevel vs UTop
 
-- When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalistic REPL.
+When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalistic REPL. But you can get UTop, the Universal TopLevel, which is an improved interface compare to the OCaml topLevel. You can install it using __opam__, ```opam install utop``` and run it ```$ utop```.
 
-- UTop, the Universal TopLevel, is an improved interface compare to the OCaml topLevel. You can install it using __opam__,
-```opam install utop```
 
-**2) Beyond the standard library**
+### 1.2. Beyond the standard library
 
 OCaml comes with its own libraries, the minimal system needed to run OCaml programs.Then,
 
