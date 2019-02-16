@@ -8,6 +8,11 @@ Installing OCaml, then, the package manager and finally running the OCaml REPL, 
 $ brew install ocaml
 $ brew install opam
 $ ocaml
+#       (* This is the OCaml REPL prompt *)
+```
+
+
+```
 # Printf.printf "Hello, World!"            (* This is a comment ignored by the OCaml REPL *)
 # #quit;;
 ```
