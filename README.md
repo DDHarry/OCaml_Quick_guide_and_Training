@@ -1,13 +1,7 @@
 # OCaml_Quick_guide_and_Training
 Fast getting started and cheat sheet for OCaml. Some exercices and problems with their solutions
 
-## 1. Brief overview of what OCaml is
-
-###1.e. OCaml type inference
-Type inference is the ability of OCaml to determine the type of an expression. The type of an expression is inferred from the available type information about the components of that expression.
-
-
-## 2. Set-up
+## 1. Set-up
 
 Installing OCaml, then, the package manager and finally running the OCaml REPL, Read-Eval-Print-Loop :
 ```shell
@@ -48,7 +42,7 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 
 
 
-## 3. Building, Compiling, Running
+## 2. Building, Compiling, Running
 
 ### 2.a. Building
 
