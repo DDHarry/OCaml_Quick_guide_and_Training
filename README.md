@@ -28,9 +28,9 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 - Core extends Core-kernel, notably with its Unix API.
 
 ### 1.3. The ```Hello, World``` program
-
+The simplest, in any REPL,
 ```OCaml
-# print_endline "Hello, World!";;
+# print_string "Hello, World!\n";;    (* print_endline will alos fit for the \n job *)
 ```
 
 
