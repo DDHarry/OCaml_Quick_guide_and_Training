@@ -55,7 +55,7 @@ The simplest, in any REPL,
 
 
 
-## 3. OCaml cheat sheet
+## 3. OCaml quick cheat sheet
 
 ### 3.1. Variable, function, numeric, let binding
 
@@ -69,6 +69,16 @@ The simplest, in any REPL,
 #### let binding, functions, recursive binding
 - For variables, ```let x' = 3;;``` or ```let x_plus_y = 3_14.15```;
 - for functions, ```let square x = x*X;;```;
+
+
+### 3.2. Type inference & Infere generic type
+- OCaml determines the type of an expression respect to the available type information derived from its constituents. This technique is called __type inference__.
+- In some cases, not enough information is provided, then the type cannot be deduced, then we get a __generic type__, also called __parametric polymorphism__,
+```ocaml
+# let first_if_true test x y =
+    if test x then x else y
+    ;;
+```
 
 
 ### Funs (anonymous functions), functions
