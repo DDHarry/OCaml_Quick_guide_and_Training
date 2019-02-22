@@ -57,9 +57,18 @@ The simplest, in any REPL,
 
 ## 3. OCaml cheat sheet
 
-### OCaml conventions
+### Variable, function, numeric, let binding
 
-• Varialbles
+**Numeric**
+- You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits
+
+```ocaml
+# 30_000_000.45;;
+```
+
+**• Variables**
+- always start with 
+
 
 • functions
 
