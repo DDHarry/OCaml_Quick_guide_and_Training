@@ -62,14 +62,11 @@ The simplest, in any REPL,
 **Numeric**
 - You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability, like in ```# 30_000_000.45;;```;
 
-**• Variables**
+**Variables**
 - must start with a lower case or an underscore "_",
-
 - then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
 
-
-
-• functions
+**Functions**
 
 
 ### let binding, recursive binding
