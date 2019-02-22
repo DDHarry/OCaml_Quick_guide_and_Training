@@ -30,7 +30,7 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 ### 1.3. The ```Hello, World``` program
 The simplest, in any REPL,
 ```OCaml
-## print_string "Hello, World!\n";;    (* print_endline will alos fit for the \n job *)
+\# print_string "Hello, World!\n";;    (* print_endline will alos fit for the \n job *)
 ```
 
 
