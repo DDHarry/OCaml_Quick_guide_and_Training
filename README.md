@@ -60,10 +60,7 @@ The simplest, in any REPL,
 ### Variable, function, numeric, let binding
 
 **Numeric**
-- You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability,
-```ocaml
-# 30_000_000.45;;
-```
+- You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability,```ocaml # 30_000_000.45;;```;
 
 **• Variables**
 - always start with 
