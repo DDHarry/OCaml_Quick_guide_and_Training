@@ -66,10 +66,10 @@ The simplest, in any REPL,
 - must start with a lower case or an underscore "_",
 - then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
 
-**Functions**
+#### let binding, functions, recursive binding
+- For variables, ```let x' = 3;;``` or ```let x_plus_y = 3_14.15```;
+- for functions, ```let square x = x*X;;```;
 
-
-### let binding, recursive binding
 
 ### Funs (anonymous functions), functions
 
