@@ -67,8 +67,7 @@ The simplest, in any REPL,
 - then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
 
 **Functions**
-
-Functions in OCaml are value which induces the uses of the let binding :
+- Functions in OCaml are value which induces the uses of the let binding :
 ```ocaml
  let sum_if_true test first second =
   (if test first then first else 0) + (if test second then second else 0)
