@@ -84,6 +84,12 @@ val x : int = 3
     ;;
   val first_if_true : ('a -> bool) -> 'a -> 'a -> 'a = <fun>
 ```
+```ocaml
+ let sum_if_true test first second =
+  (if test first then first else 0) + (if test second then second else 0)
+  ;;
+  val sum_if_true : (int -> bool) -> int -> int -> int = <fun>
+  ```
 
 
 ### Funs (anonymous functions), functions
