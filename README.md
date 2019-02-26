@@ -57,7 +57,7 @@ The simplest, in any REPL,
 
 ## 3. OCaml quick cheat sheet
 
-### 3.1. Variable, function, numeric, let binding
+### 3.1. Variable, function, numeric, let in, let rec & let binding
 
 **Numeric**
 - You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability, like in ```# 30_000_000.45;;```;
@@ -74,7 +74,7 @@ The simplest, in any REPL,
 ### 3.2. Type inference & Infere generic type
 - OCaml determines the type of an expression respect to the available type information derived from its constituents. This technique is called __type inference__:
 ```ocaml
-#let x = 3;;
+# let x = 3;;
 val x : int = 3
 ```
 - In some cases, not enough information is provided, then the type cannot be deduced, then we get a __generic type__, also called __parametric polymorphism__,
