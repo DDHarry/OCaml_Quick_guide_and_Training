@@ -67,6 +67,7 @@ The simplest, in any REPL,
 - then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
 
 **Functions**
+
 Functions in OCaml are value which induces the uses of the let binding :
 ```ocaml
  let sum_if_true test first second =
@@ -75,9 +76,10 @@ Functions in OCaml are value which induces the uses of the let binding :
   val sum_if_true : (int -> bool) -> int -> int -> int = <fun>
   ```
 
-#### let binding, functions, recursive binding
+#### let, let .. in, let rec binding
 - For variables, ```let x' = 3;;``` or ```let pi_def = 3_14.15;;```;
 - for functions : ``` let square x = x*x;;```
+- let .. in
 
 
 ### 3.2. Type inference & Infere generic type
