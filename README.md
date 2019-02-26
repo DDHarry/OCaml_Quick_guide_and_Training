@@ -68,8 +68,13 @@ The simplest, in any REPL,
 
 #### let binding, functions, recursive binding
 - For variables, ```let x' = 3;;``` or ```let x_plus_y = 3_14.15```;
-- for functions, ```let square x = x*X;;```;
-
+- for functions :
+```ocaml
+ let sum_if_true test first second =
+  (if test first then first else 0) + (if test second then second else 0)
+  ;;
+  val sum_if_true : (int -> bool) -> int -> int -> int = <fun>
+  ```
 
 ### 3.2. Type inference & Infere generic type
 - OCaml determines the type of an expression respect to the available type information derived from its constituents. This technique is called __type inference__:
@@ -95,17 +100,8 @@ val x : int = 3
 
 
 
-
-
-## 4. Getting some help
-
-Of course, OCaml's website is the primary source of information.
-
-
-
 ## 5. More about imperative OCaml
 => More than necessary
-
 
 
 ## 6. Object Oriented programming in OCaml
@@ -116,9 +112,11 @@ Why?
 - Followed by "How to make it functional"? > OO needless, right?
 
 
-
-
-
 ## R. Some references: books
+
+### R.1. Getting some help
+Of course, OCaml's website is the primary source of information.
+
+### R.2. Some books
 
 • Real Worrld OCaml
