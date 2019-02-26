@@ -72,7 +72,11 @@ The simplest, in any REPL,
 
 
 ### 3.2. Type inference & Infere generic type
-- OCaml determines the type of an expression respect to the available type information derived from its constituents. This technique is called __type inference__.
+- OCaml determines the type of an expression respect to the available type information derived from its constituents. This technique is called __type inference__:
+'''ocaml
+#let x = 3;;
+val x : int = 3 ```
+ 
 - In some cases, not enough information is provided, then the type cannot be deduced, then we get a __generic type__, also called __parametric polymorphism__,
 ```ocaml
 # let first_if_true test x y =
