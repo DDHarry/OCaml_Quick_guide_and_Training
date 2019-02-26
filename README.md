@@ -76,8 +76,8 @@ Functions in OCaml are value which induces the uses of the let binding :
   ```
 
 #### let binding, functions, recursive binding
-- For variables, ```let x' = 3;;``` or ```let x_plus_y = 3_14.15```;
-- for functions : 
+- For variables, ```let x' = 3;;``` or ```let pi_def = 3_14.15;;```;
+- for functions : ``` let square x = x*x;;```
 
 
 ### 3.2. Type inference & Infere generic type
