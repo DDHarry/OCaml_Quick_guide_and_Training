@@ -66,15 +66,19 @@ The simplest, in any REPL,
 - must start with a lower case or an underscore "_",
 - then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
 
-#### let binding, functions, recursive binding
-- For variables, ```let x' = 3;;``` or ```let x_plus_y = 3_14.15```;
-- for functions :
+**Functions**
+Functions in OCaml are value which induces the uses of the let binding :
 ```ocaml
  let sum_if_true test first second =
   (if test first then first else 0) + (if test second then second else 0)
   ;;
   val sum_if_true : (int -> bool) -> int -> int -> int = <fun>
   ```
+
+#### let binding, functions, recursive binding
+- For variables, ```let x' = 3;;``` or ```let x_plus_y = 3_14.15```;
+- for functions : 
+
 
 ### 3.2. Type inference & Infere generic type
 - OCaml determines the type of an expression respect to the available type information derived from its constituents. This technique is called __type inference__:
