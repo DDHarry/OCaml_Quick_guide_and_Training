@@ -21,11 +21,11 @@ When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalist
 
 OCaml comes with its own libraries, the minimal system needed to run OCaml programs.Then,
 
-- Base extends the OCaml standard library;
+- Base extends the OCaml standard library; Base is designed to be portable, hence the I/O functionalities are not considered (use "stdio"). The same holds for any platform dependent functionality;
 
-- Core-kernel extends Base;
+- Core-kernel extends Base (opam core_kernel), industrial grade. The platform independent sub-part of Core;
 
-- Core extends Core-kernel, notably with its Unix API.
+- Core extends Core-kernel, notably with its Unix API. Industrial grade.
 
 ### 1.3. The ```Hello, World``` program
 The simplest, in any REPL,
