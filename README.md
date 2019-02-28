@@ -101,38 +101,26 @@ val x : int = 3
 An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values :
 ```ocaml
 let a_tuple = (1, "two", 3.) ;;
-```
-is equivalent to :
-```ocaml
+
+equivalent to :
+
 let another_tuple = 1,"two",3. ;;
 ```
 
 
-### Funs (anonymous functions), functions
-
-### Tuples, Lists
-
-### Simple imperative features
 
 
 
-## 5. More about imperative OCaml
-=> More than necessary
+
+
 
 
 ## 6. Object Oriented programming in OCaml
 Why?
-
 - One example of use :
-
 - Followed by "How to make it functional"? > OO needless, right?
-
-
 ## R. Some references: books
-
 ### R.1. Getting some help
 Of course, OCaml's website is the primary source of information.
-
 ### R.2. Some books
-
 • Real Worrld OCaml
