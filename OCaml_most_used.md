@@ -14,7 +14,7 @@ opam core_kernel
 - List.length l
 
 **Numerics**
-- Float.of_int x  ::  conversion; 'of_int' function from the __Float__ module
+- Float.of_int x  ::  conversion ('of_int' function from the __Float__ module)
 
 **Strings**
 - String.length s
