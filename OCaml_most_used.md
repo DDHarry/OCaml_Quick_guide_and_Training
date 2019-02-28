@@ -10,13 +10,13 @@ opam core_kernel
 
 ## OCaml keywords
 
-Lists
+**Lists**
 - List.length l
 
-Numerics
-- Float.of_int x  ::  conversion
+**Numerics**
+- Float.of_int x  ::  conversion; 'of_int' function from the __Float__ module
 
-Strings
+**Strings**
 - String.length s
 
 
