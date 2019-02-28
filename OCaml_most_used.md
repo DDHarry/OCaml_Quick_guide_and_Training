@@ -1,4 +1,4 @@
-# The not so triviam OCaml quick reminder
+# The not so trivial OCaml quick reminder
 
 For the most used keywords, expressions & idioms
 
@@ -8,7 +8,7 @@ For the most used keywords, expressions & idioms
 opam core_kernel
 ```
 
-### OCaml keywords
+## OCaml keywords
 
 Lists
 - List.length l
@@ -18,3 +18,6 @@ Numerics
 
 Strings
 - String.length s
+
+
+## OCaml idioms
