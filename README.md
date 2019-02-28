@@ -102,8 +102,6 @@ An ordered collection of values of different types, joined by commas. __Pattern 
 ```ocaml
 let a_tuple = (1, "two", 3.) ;;
 ```
-**Nota bene :**
-
 Equivalent to :
 ```ocaml
 let another_tuple = 1,"two",3. ;;
