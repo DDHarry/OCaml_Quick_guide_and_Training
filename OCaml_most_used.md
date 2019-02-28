@@ -1,6 +1,7 @@
-# The OCaml quick reminder for the most used keywords, expressions & idioms
+# The not so triviam OCaml quick reminder
 
-... and, definitely, not so trivial!
+For the most used keywords, expressions & idioms
+
 
 ## OCaml system
 ```shell
