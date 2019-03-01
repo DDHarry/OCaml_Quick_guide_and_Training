@@ -22,13 +22,13 @@ When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalist
 OCaml comes with its own libraries, the minimal system needed to run OCaml programs.Then,
 
 #### Base
-Extends the OCaml standard library; Base is designed to be portable, hence the I/O functionalities are not considered (use "stdio"). The same holds for any platform dependent functionality;
+- Extends the OCaml standard library; Base is designed to be portable, hence the I/O functionalities are not considered (use "stdio"). The same holds for any platform dependent functionality;
 
 #### Core-kernel
-Extends Base (opam core_kernel), industrial grade. The platform independent sub-part of Core;
+- Extends Base (opam core_kernel), industrial grade. The platform independent sub-part of Core;
 
 #### Core
-Extends Core-kernel, notably with its Unix API. Industrial grade.
+- Extends Core-kernel, notably with its Unix API. Industrial grade.
 
 
 ### 1.3. The ```Hello, World``` program
@@ -63,15 +63,14 @@ The simplest, in any REPL,
 ### 3.1. Variable, function, numeric, let in, let rec & let binding
 
 #### Numerics
-\- You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability, like in ```# 30_000_000.45;;```;
+- You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability, like in ```# 30_000_000.45;;```;
 
 #### Variables
 - must start with a lower case or an underscore "_";
-
-- then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
+- then any combination of characters of the alphabet characters and "\_" or the prime " ' " character.
 
 #### Functions
-\- Functions in OCaml are values, which induces the uses of the let binding :
+- Functions in OCaml are values, which induces the uses of the let binding :
 ```ocaml
  let sum_if_true test first second =
   (if test first then first else 0) + (if test second then second else 0)
