@@ -80,8 +80,8 @@ The simplest, in any REPL,
   ```
 
 #### let, let .. in, let rec binding
-\- For variables, ```let x' = 3;;``` or ```let pi_def = 3_14.15;;```;
-\- for functions : ``` let square x = x*x;;```
+\- For variables, ```let x' = 3;;``` or ```let pi_def = 3_14.15;;```; \n
+\- for functions : ``` let square x = x*x;;``` ~n
 \- let .. in
 
 
