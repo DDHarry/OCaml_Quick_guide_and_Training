@@ -96,17 +96,16 @@ val x : int = 3
 
 ### 3.3 OCaml data structures
 
-**Tuples**
-
-An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values. These twi tuples are equivalent (parentheses are not mandatory) :
+#### Tuples
+- An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values. These twi tuples are equivalent (parentheses are not mandatory) :
 ```ocaml
 let a_tuple = (1, "two", 3.) ;;
 
 let another_tuple = 1,"two",3. ;;
 ```
 
-#### _Lists_
-Any _number_ of items of the same type :
+**Lists**
+- Any number of items of the same type :
 ```OCaml
 let sports = ["Fencing","Formula 1","swwimming"];;
 ```
@@ -126,4 +125,4 @@ Why?
 ### R.1. Getting some help
 Of course, OCaml's website is the primary source of information.
 ### R.2. Some books
-• Real Worrld OCaml
+• _Real Worrld OCaml_
