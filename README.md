@@ -106,7 +106,7 @@ let another_tuple = 1,"two",3. ;;
 ```
 
 #### _Lists_
-Any __numbers__ of items of the same type :
+Any _number_ of items of the same type :
 ```OCaml
 let sports = ["Fencing","Formula 1","swwimming"];;
 ```
