@@ -97,6 +97,7 @@ val x : int = 3
 ### 3.3 OCaml data structures
 
 **Tuples**
+
 An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values. These twi tuples are equivalent (parentheses are not mandatory) :
 ```ocaml
 let a_tuple = (1, "two", 3.) ;;
