@@ -66,9 +66,9 @@ The simplest, in any REPL,
 \- You can insert underscores in any numeric litterals, at any place. Best place, to separate every three digits for readability, like in ```# 30_000_000.45;;```;
 
 #### Variables
-\- must start with a lower case or an underscore "_";
+- must start with a lower case or an underscore "_";
 
-\- then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
+- then any combination of characters of the alphabet characters and "_" or the prime " ' " character;
 
 #### Functions
 \- Functions in OCaml are values, which induces the uses of the let binding :
@@ -80,9 +80,9 @@ The simplest, in any REPL,
   ```
 
 #### let, let .. in, let rec binding
-\- For variables, ```let x' = 3;;``` or ```let pi_def = 3_14.15;;```; \n
-\- for functions : ``` let square x = x*x;;``` ~n
-\- let .. in
+- For variables, ```let x' = 3;;``` or ```let pi_def = 3_14.15;;```; \n
+- for functions : ``` let square x = x*x;;``` ~n
+- let .. in
 
 
 ### 3.2. Type inference & Infere generic type
