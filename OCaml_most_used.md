@@ -20,10 +20,11 @@ opam show core_kernel
 - definition :: ```let sports = ["Fencing";"Formula 1";"running";"Swimming"];;```
 - length & map (always ```List.map <fun> list;;```)
 ```OCaml
-List.length sports;;
+let l = ["Fencing";"Formula 1";"running";"Swimming"];;
+List.length l;;
 -: int = 4
 
-List.map String.length sports;;
+List.map String.length l;;
 - : int list = [7; 9; 7; 8]
 ```
 
