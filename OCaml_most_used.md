@@ -15,7 +15,7 @@ opam show core_kernel
 ## OCaml data structure
 
 #### tuples
-- tuples "()" are non mandatory :: ```let a_tuple = (1,"two",3.);;```
+- tuples "(", ")" are non mandatory :: ```let a_tuple = (1,"two",3.);;```
 #### lists
 - lists :: ```let sports = ["Fencing","Formula 1","running","swimming"];;```
 - length :: ```OCaml
