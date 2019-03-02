@@ -103,9 +103,7 @@ val x : int = 3
 #### Tuples
 - An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values. These two tuples are equivalent (parentheses are not mandatory) :
 ```ocaml
-Definition
-
-let a_tuple = (1, "two", 3.) ;;
+let a_tuple          = (1, "two", 3.) ;;
 
 let equivalent_tuple = 1,"two",3. ;;
 ```
