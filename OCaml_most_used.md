@@ -21,13 +21,13 @@ opam show core_kernel
 - length & map (always ```List.map <fun> list;;```)
 ```OCaml
 let l = ["Fencing";"Formula 1";"running";"Swimming"];;
- val l : string list = ["Fencing"; "Formula 1"; "running"; "Swimming"]
+val l : string list = ["Fencing"; "Formula 1"; "running"; "Swimming"]
 
 List.length l;;
- -: int = 4
+-: int = 4
 
 List.map String.length l;;
- - : int list = [7; 9; 7; 8]
+- : int list = [7; 9; 7; 8]
 ```
 
 
