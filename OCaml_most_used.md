@@ -19,6 +19,8 @@ opam show core_kernel
 #### lists
 - definition :: ```let sports = ["Fencing";"Formula 1";"running";"Swimming"];;```
 - length & map (always ```List.map <fun> list;;```)
+- constuctor ``` :: ```
+- concatenate ``` @ ```
 ```OCaml
 let l = ["Fencing";"Formula 1";"running";"Swimming"];;
 val l : string list = ["Fencing"; "Formula 1"; "running"; "Swimming"]
@@ -28,6 +30,14 @@ List.length l;;
 
 List.map String.length l;;
 - : int list = [7; 9; 7; 8]
+
+let l' = "voley-ball" :: l;;
+val l' : string list =  ["voley-ball"; "Fencing"; "Formula 1"; "running"; "Swimming"]
+
+let l'' = 1::2::3::[] ;;
+val l'' : int list = [1; 2; 3]
+
+
 ```
 
 
