@@ -109,7 +109,7 @@ let equiv_tuple = 1, "two", 3. ;;
 ```
 
 #### Lists
-- Any number of items of the same type. Definition & length:
+- Any number of items of the same type. Definition with ```[]``` or ``` :: ```:
 ```OCaml
 let sports  = ["Fencing";"Formula 1";"running";"Swimming"];;
 
@@ -125,7 +125,24 @@ List.length sports;;
 List.map String.length equiv_s ;;
 - : int list = [7; 9; 7; 8]
 ```
+- concatenation ```@ ``` 
+```ocaml
+[1;2] @ [2;3;4] ;;
+- : int list = [1; 2; 2; 3; 4]
 
+1 :: 2 :: [] @ 2 :: 3 :: [] ;;
+- : int list = [1; 2; 2; 3]
+```
+
+- head-tail, pattern-matching
+```ocaml
+let my_favorite_sport (my_favorite :: the_rest) =
+  my_favorite
+;;
+
+my_favorite_sport ["Fencing";"Formula 1";"running";"Swimming"];;
+- : string = "Fencing"
+```
 
 
 
