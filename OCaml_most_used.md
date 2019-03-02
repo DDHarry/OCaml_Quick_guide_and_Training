@@ -23,8 +23,8 @@ opam show core_kernel
 List.length sports;;
 -: int = 4
 
-List.map sports ~f:String.length;;
-- : int list = []
+List.map String.length sports;;
+- : int list = [7; 9; 7; 8]
 ```
 
 
