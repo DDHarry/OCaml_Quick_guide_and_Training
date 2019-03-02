@@ -17,11 +17,14 @@ opam show core_kernel
 #### tuples
 - tuples "(", ")" are non mandatory :: ```let a_tuple = (1,"two",3.);;```
 #### lists
-- lists :: ```let sports = ["Fencing","Formula 1","running","swimming"];;```
-- length ::
+- definition :: ```let sports = ["Fencing";"Formula 1";"running";"Swimming"];;```
+- length & map (always ```List.map <fun> list;;```)
 ```OCaml
 List.length sports;;
 -: int = 4
+
+List.map sports ~f:String.length;;
+- : int list = []
 ```
 
 
