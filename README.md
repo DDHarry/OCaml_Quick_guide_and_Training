@@ -139,6 +139,9 @@ List.map String.length equiv_s ;;
 let my_favorite_sport (my_favorite :: the_rest) =
   my_favorite
 ;;
+Warning 8: this pattern-matching is not exhaustive.
+Here is an example of a case that is not matched:
+[]
 
 my_favorite_sport ["Fencing";"Formula 1";"running";"Swimming"];;
 - : string = "Fencing"
