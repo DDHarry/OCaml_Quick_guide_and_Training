@@ -4,9 +4,25 @@ For the most used keywords, expressions & idioms
 
 
 ## OCaml system
+
+**Getting info on the module**
+- opam
 ```shell
-opam core_kernel
+opam show core_kernel
 ```
+- opam.ocaml.org
+
+## OCaml data structure
+
+#### tuples
+- tuples "()" are non mandatory :: ```let a_tuple = (1,"two",3.);;```
+#### lists
+- lists :: ```let sports = ["Fencing","Formula 1","running","swimming"];;```
+- length :: ```OCaml
+List.length sports;;
+-: int = 4
+```
+
 
 ## OCaml keywords
 
