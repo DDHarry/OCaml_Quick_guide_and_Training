@@ -109,9 +109,14 @@ let equivalent_tuple = 1,"two",3. ;;
 ```
 
 #### Lists
-- Any number of items of the same type :
+- Any number of items of the same type. Definition & length:
 ```OCaml
-let sports = ["Fencing","Formula 1","swimming"];;
+let sports = ["Fencing";"Formula 1";"running";"Swimming"];;
+
+let s      = "fencing" :: "formula One" :: "Running" :: "swimming" :: [] ;;
+
+List.length sports;;
+: - int = 4
 ```
 
 
