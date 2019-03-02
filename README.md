@@ -103,24 +103,28 @@ val x : int = 3
 #### Tuples
 - An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values. These two tuples are equivalent (parentheses are not mandatory) :
 ```ocaml
-let a_tuple          = (1, "two", 3.) ;;
+let a_tuple     = (1, "two", 3.) ;;
 
-let equivalent_tuple = 1,"two",3. ;;
+let equiv_tuple = 1, "two", 3. ;;
 ```
 
 #### Lists
 - Any number of items of the same type. Definition & length:
 ```OCaml
-let sports = ["Fencing";"Formula 1";"running";"Swimming"];;
+let sports  = ["Fencing";"Formula 1";"running";"Swimming"];;
 
-let s      = "fencing" :: "formula One" :: "Running" :: "swimming" :: [] ;;
-
+let equiv_s = "fencing" :: "formula 1" :: "Running" :: "swimming" :: [] ;;
+```
+- List.length
+```ocaml
 List.length sports;;
 : - int = 4
 ```
-
-
-
+- List.map
+```ocaml
+List.map String.length equiv_s ;;
+- : int list = [7; 9; 7; 8]
+```
 
 
 
