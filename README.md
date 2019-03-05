@@ -1,7 +1,7 @@
 # OCaml_Quick_guide_and_Training
 Fast getting started and cheat sheet for OCaml. Some exercices and problems with their solutions
 
-## 1. The OCaml REPL
+# 1. The OCaml REPL
 
 Installing OCaml, then, the package manager and finally running the OCaml REPL, Read-Eval-Print-Loop :
 ```shell
@@ -46,7 +46,7 @@ The simplest, in any REPL,
 
 ---------
 
-## 2. Building, Compiling, Running
+# 2. Building, Compiling, Running
 ### 2.a. Building
 ### 2.b. Compiling
 ### 2.c. Running
@@ -58,7 +58,7 @@ The simplest, in any REPL,
 
 
 
-## 3. OCaml quick cheat sheet
+# 3. OCaml quick cheat sheet
 
 ### 3.1. Variable, function, numeric, let in, let rec & let binding
 
