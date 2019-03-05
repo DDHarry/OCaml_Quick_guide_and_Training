@@ -106,7 +106,7 @@ val x : int = 3
 
 ## 3.3 OCaml data structures
 
-### Tuples ~> "() + ," | ","
+### Tuples ~> " ( ) & , "   or  ","
 - An ordered collection of values of different types, joined by commas. __Pattern matching__ helps extracting any of these values. These two tuples are equivalent (parentheses are not mandatory) :
 ```ocaml
 let a_tuple     = (1, "two", 3.) ;;
@@ -114,7 +114,7 @@ let a_tuple     = (1, "two", 3.) ;;
 let equiv_tuple = 1, "two", 3. ;;
 ```
 
-### Lists ~> "[]+;" | ":: + []"
+### Lists ~> " [ ] & ; "    or  " :: & [ ] "
 - Any number of items of the same type. Definition with ```[]``` or ``` :: ```:
 ```OCaml
 let sports  = ["Fencing";"Formula 1";"running";"Swimming"];;
