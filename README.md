@@ -1,6 +1,6 @@
-# OCaml_Quick_guide_and_Training
+# OCaml quick guide and training
+-----------
 Fast getting started and cheat sheet for OCaml. Some exercices and problems with their solutions
-_____________
 
 
 
