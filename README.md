@@ -9,6 +9,8 @@ Fast getting started and cheat sheet for OCaml. Some exercices and problems with
 
 # 1. The OCaml REPL
 
+## 1.1. OCaml standard REPL
+
 Installing OCaml, then, the package manager and finally running the OCaml REPL, Read-Eval-Print-Loop :
 ```shell
 $ brew install ocaml
@@ -18,12 +20,16 @@ $ ocaml
 # #quit;;
 ```
 
-## 1.1. OCaml TopLevel vs UTop
+## 1.2. OCaml TopLevel vs UTop
 
 When running ```ocaml```, you enter the OCaml TopLevel system, a very minimalistic REPL. But you can get UTop, the Universal TopLevel, which is an improved interface compare to the OCaml topLevel. You can install it using __opam__, ```opam install utop``` and run it ```$ utop```.
+```ocaml
+$ utop
+utop # #help;;
+utop # #quit;;
+```
 
-
-## 1.2. Beyond the standard library
+## 1.3. Beyond the standard library
 
 OCaml comes with its own libraries, the minimal system needed to run OCaml programs.Then,
 
@@ -37,7 +43,7 @@ OCaml comes with its own libraries, the minimal system needed to run OCaml progr
 - Extends Core-kernel, notably with its Unix API. Industrial grade.
 
 
-## 1.3. The ```Hello, World``` program
+## 1.4. The ```Hello, World``` program
 The simplest, in any REPL,
 ```OCaml
  # print_string "Hello, World!\n";;    (* print_endline will alos fit for the \n job *)
