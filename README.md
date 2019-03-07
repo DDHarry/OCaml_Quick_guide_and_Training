@@ -179,7 +179,7 @@ let rec sum l =
     | []     -> 0             (* base case *)
     | hd::tl -> hd + sum tl   (* inductive case *)
 ```
-Less simple. A function to remove sequential duplicates
+Less simple, a function to remove sequential duplicates
 ```ocaml
 let rec remove_sequential_duplicate l =
   match l with
@@ -193,7 +193,7 @@ let rec remove_sequential_duplicate l =
 ```
 the ``` _ :: [] ```, singleton-list is never matched!
 
-Better alternative
+A better alternative
 ```ocaml
 let rec remove_sequential_duplicate ll =
   match ll with
@@ -204,9 +204,13 @@ let rec remove_sequential_duplicate ll =
       else hda :: remove_sequential_duplicate (hdb :: tl)
 ;;
 ```
-An algorithm to be fixed!
 
 
+
+### Option (when a value might not be present)
+```ocaml
+
+```
 
 
 
