@@ -120,7 +120,7 @@ val x : int = 3
 (ii) let equiv_tuple = 1, "two", 3. ;;
 ```
 
-### Lists
+### Lists and the list module
 - Any number of items of the same type. Definition with ```[]``` or ``` :: ```. Here, (iii) <=> (iv)
 ```OCaml
 (iii) let sports  = ["Fencing";"Formula 1";"running";"Swimming"];;
@@ -158,6 +158,55 @@ Here is an example of a case that is not matched:
 my_favorite_sport ["Fencing";"Formula 1";"running";"Swimming"];;
 - : string = "Fencing"
 ```
+
+
+### match statement
+The first "|" is optional
+```ocaml
+let my_fav_sport l_sports =
+  match l_sports with
+    | hd :: tl -> hd
+    | []       -> "Fencing"    (* A good default *)
+  ;;
+  ```
+
+
+### Recursive list functions
+A "base case" followed by a set of "inductive cases"; a classic example :
+```ocaml
+let rec sum l =
+  match l with
+    | []     -> 0             (* base case *)
+    | hd::tl -> hd + sum tl   (* inductive case *)
+```
+Less simple (to stutter ~ bégayer)
+```ocaml
+let rec deStutter l =
+  match l with
+    | []               -> []
+    | hda :: hdb :: tl ->
+      if hda = hdb then deStutter (hda :: tl)
+      else hda :: deStutter (hdb :: tl)
+;;
+
+>> Warning issued : not exhaustive
+```
+the ``` _ :: [] ```, singleton-list is never matched!
+
+Better alternative
+```ocaml
+let rec deStutter l =
+  match l with
+    | []               -> []
+    | [hd]             -> [hd]
+    | hda :: (hdb :: tl) ->
+      if hda = hdb then deStutter (hdb :: tl)
+      else hda :: deStutter (hdb :: tl)
+;;
+```
+An algorithm to be fixed!
+
+
 
 
 
