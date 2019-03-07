@@ -179,14 +179,14 @@ let rec sum l =
     | []     -> 0             (* base case *)
     | hd::tl -> hd + sum tl   (* inductive case *)
 ```
-Less simple (to stutter ~ bégayer)
+Less simple. A function to remove sequential duplicates
 ```ocaml
-let rec deStutter l =
+let rec remove_sequential_duplicate l =
   match l with
     | []               -> []
     | hda :: hdb :: tl ->
-      if hda = hdb then deStutter (hda :: tl)
-      else hda :: deStutter (hdb :: tl)
+      if hda = hdb then remove_sequential_duplicate (hdb :: tl)
+      else hda :: remove_sequential_duplicate (hdb :: tl)
 ;;
 
 >> Warning issued : not exhaustive
@@ -195,13 +195,13 @@ the ``` _ :: [] ```, singleton-list is never matched!
 
 Better alternative
 ```ocaml
-let rec deStutter l =
-  match l with
+let rec remove_sequential_duplicate ll =
+  match ll with
     | []               -> []
     | [hd]             -> [hd]
     | hda :: (hdb :: tl) ->
-      if hda = hdb then deStutter (hdb :: tl)
-      else hda :: deStutter (hdb :: tl)
+      if hda = hdb then remove_sequential_duplicate (hdb :: tl)
+      else hda :: remove_sequential_duplicate (hdb :: tl)
 ;;
 ```
 An algorithm to be fixed!
